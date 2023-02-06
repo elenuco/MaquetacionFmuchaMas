@@ -1,0 +1,30 @@
+nav{
+    width: auto;
+    height: 40px;
+    background-color: rgb (68,161,238);
+    border: 1px solid rgb (69, 161, 238);
+}
+ul{
+    display: inline-block;
+    margin-left: 453px;
+    margin-top: 9px;
+}
+li{
+    display: inline;
+    padding: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+li:hover{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(33, 5, 133);
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 3px 2px #777;
+    border-bottom: 2px solid rgb(255, 196, 0);
+}
