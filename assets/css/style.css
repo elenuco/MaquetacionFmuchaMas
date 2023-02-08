@@ -1,8 +1,18 @@
 .Titulo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 @font-face {
-    font-family: mi fuente;
-    src: url();
+    font-family: mi_fuente;
+    src: url("/assets/fonts/Handlee-Regular.ttf");
+}
+.subtitulo{
+    font-family: mi_fuente;
+    font-size: 50px;
+}
+.parrafo{
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
 }
