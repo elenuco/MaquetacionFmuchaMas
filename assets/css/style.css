@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Titulo{
     font-family: 'Open Sans', sans-serif;
 
@@ -11,8 +15,34 @@
     font-size: 50px;
 }
 .parrafo{
+    font-family: mi_fuente;
     font-weight: 100;
 }
 a{
     text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.header{
+   display: flex;
+   aling-items: center;
+   padding: 30px;
+   background-color: aqua;
+}
+.menu-nav{
+    width: 75%;
+    display: flex;
+
+}
+ul{
+    list-style: none;
+}
+.menu{
+    display: flex;
+}
+li{
+    padding: 40px;
 }
