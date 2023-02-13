@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100hn;
+    background: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.subtitulo{
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sabor{
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0, 0.7);
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+}
+.linea-division{
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+}
